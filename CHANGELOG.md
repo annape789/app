@@ -1,17 +1,11 @@
-lista zmian w projekcie
+### jak to powinno wygladac:
 
-##unreleased
+## [Unreleased]
 
-###aded
-1.1.0
+## [1.0.1] - 2020-02-20
+### Fixed
+- Readme and changelog files
 
-###changed
-1.0.0
-
-###depracated
-
-###removed
-
-###fixed
-1.0.0
-###security
+## [1.0.0] - 2020-02-10
+### Added
+- Initial application 
