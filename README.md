@@ -1,2 +1,8 @@
-# panda_application
-Sample springboot aplication with using thymeleaf and web spring
+to jest przykladowy plik
+readme.md 
+
+tago typu plik moze zawierac:
+instrukcje,
+opis dzialania programu,
+dokumentacje,
+licencje itp

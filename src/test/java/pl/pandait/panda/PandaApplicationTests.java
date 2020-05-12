@@ -4,11 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PandaApplicationTest {
+class PandaApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
 
-	
 }
