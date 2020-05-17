@@ -1,6 +1,13 @@
-### jak to powinno wygladac:
+### 
 
 ## [Unreleased]
+
+### [3.1.0] 2020-05-15
+-docker maven plugin
+
+### [2.1.1] 2020-05-11 
+-Selenium tests
+
 
 ## [1.0.1] - 2020-02-20
 ### Fixed
