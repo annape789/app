@@ -21,7 +21,7 @@ public class PandaApplicationSeleniumTest {
     @BeforeAll
     public static void startup() throws InterruptedException {
         //Driver znajduje się w resource
-        System.setProperty("webdriver.gecko.driver", "src/resources/geckodriver");
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
         //Ścieżka do Firefoxa - jeżeli nie działa trzeba sprawdzić, gdzie FF jest zainstalowany!
         System.setProperty("webdriver.firefox.bin", "/usr/bin/firefox");
         FirefoxOptions capabilities = new FirefoxOptions();
