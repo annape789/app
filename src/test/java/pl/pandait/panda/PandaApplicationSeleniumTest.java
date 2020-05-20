@@ -1,6 +1,10 @@
 package pl.pandait.panda;
 
 
+import org.openqa.selenium.remote.DesiredCapabilities;
+import java.net.URL;
+import java.net.MalformedURLException;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import static org.junit.Assert.assertEquals;
+
 
 public class PandaApplicationSeleniumTest {
     private static WebDriver driver;
