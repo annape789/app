@@ -1,10 +1,6 @@
 package pl.pandait.panda;
 
 
-import org.openqa.selenium.remote.DesiredCapabilities;
-import java.net.URL;
-import java.net.MalformedURLException;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,14 +10,13 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import static org.junit.Assert.assertEquals;
 
-
 public class PandaApplicationSeleniumTest {
     private static WebDriver driver;
 
     @BeforeAll
     public static void startup() throws InterruptedException {
         //Driver znajduje się w resource
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+        System.setProperty("webdriver.gecko.driver", "src/resources/geckodriver");
         //Ścieżka do Firefoxa - jeżeli nie działa trzeba sprawdzić, gdzie FF jest zainstalowany!
         System.setProperty("webdriver.firefox.bin", "/usr/bin/firefox");
         FirefoxOptions capabilities = new FirefoxOptions();
